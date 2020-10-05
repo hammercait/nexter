@@ -72,5 +72,10 @@
         height: 100%;
         object-fit: cover;
         display: block;
+
+        &:hover {
+            transform: scale(1.5);
+            border: 2rem solid rgba($color-secondary, .8);
+        }
     }
 }

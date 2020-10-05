@@ -726,6 +726,12 @@ body {
   display: block;
 }
 
+.gallery__img:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  border: 2rem solid rgba(16, 29, 44, 0.8);
+}
+
 .footer {
   background-color: #101d2c;
   grid-column: full-start / full-end;
